@@ -7,7 +7,7 @@ Microsoft Dynamics 365 oauth2 plugin for [HTTPie](https://httpie.org/)
 Installation
 ------------
 
-    $ pip install httpie-msft-dynamics-auth
+    $ pip install microsoft-dynamics-auth
 
 
 You should now see `dynamics-auth` under `--auth-type` while running
