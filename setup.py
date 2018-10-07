@@ -15,11 +15,11 @@ setup(
     license='MIT',
     url='https://github.com/roshangautam/microsoft-dynamics-auth',
     download_url='https://github.com/roshangautam/microsoft-dynamics-auth',
-    py_modules=['microsoft-dynamics-auth'],
+    py_modules=['microsoft_dynamics_auth'],
     zip_safe=False,
     entry_points={
         'httpie.plugins.auth.v1': [
-            'microsoft-dynamics-auth = auth:MsftDynamicsAuthPlugin'
+            'microsoft_dynamics_auth = microsoft_dynamics_auth:MsftDynamicsAuthPlugin'
         ]
     },
     install_requires=[
