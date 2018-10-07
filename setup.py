@@ -8,7 +8,7 @@ except ImportError:
 setup(
     name='microsoft-dynamics-auth',
     description='Microsoft Dynamics 365 authentication plugin for HTTPie.',
-    long_description=open('README.rst').read().strip(),
+    long_description=open('README.md').read().strip(),
     version='0.0.1',
     author='Roshan Gautam',
     author_email='roshan.gautam@hotmail.com',

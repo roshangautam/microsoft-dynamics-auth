@@ -3,3 +3,5 @@
 .vscode
 env
 *.egg-info
+build
+dist
