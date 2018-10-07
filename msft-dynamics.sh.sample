@@ -1,0 +1,3 @@
+export TENANT=[REPLACE THIS WITH YOUR TENANT NAME e.g. northwind].onmicrosoft.com
+export AUTHORITY_URL=https://login.microsoftonline.com/${TENANT}
+export RESOURCE_URL=https://[YOUR ORG NAME e.g. mydynamics].[YOUR REGION e.g. crm].dynamics.com

@@ -1,0 +1,5 @@
+*.sh
+.env
+.vscode
+env
+*.egg-info
