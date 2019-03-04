@@ -26,7 +26,7 @@ class MsftDynamicsAuth(oauth2_auth.OAuth2):
     def __call__(self, request):
         context = AuthenticationContext(self.authority)
         response = context.acquire_token_with_client_credentials(self.resource_url, self.client_id, self.client_secret)
-        request.headers['Authorization'] = 'Bearer %s' % response.get('accessToken').encode("ascii","ignore")
+        request.headers['Authorization'] = 'Bearer %s' % response.get('accessToken')
         return request
 
 class MsftDynamicsAuthPlugin(AuthPlugin):
