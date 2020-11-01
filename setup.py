@@ -9,6 +9,7 @@ setup(
     name='microsoft-dynamics-auth',
     description='Microsoft Power Platform authentication plugin for HTTPie.',
     long_description=open('README.md').read().strip(),
+    long_description_content_type="text/markdown",
     version='1.0.0',
     author='Roshan Gautam',
     author_email='roshan.gautam@hotmail.com',
