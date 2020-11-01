@@ -6,7 +6,7 @@ except ImportError:
 
 
 setup(
-    name='microsoft-power-platform-auth',
+    name='microsoft-dynamics-auth',
     description='Microsoft Power Platform authentication plugin for HTTPie.',
     long_description=open('README.md').read().strip(),
     version='1.0.0',
